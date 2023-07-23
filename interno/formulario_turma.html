@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Turmas</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+
+<body>
+    <nav>
+        <h1><a href="../turmas.html">Voltar</a></h1>
+
+        <button>&#9776;</button>
+        <ul>
+            <li>
+                <p><a href="../cursos.html">Cursos</a></p>
+            </li>
+            <li>
+                <p><a href="../alunos.html">Alunos</a></p>
+            </li>
+            <li>
+                <p><a href="../professores.html">Professores</a></p>
+            </li>
+            <li>
+                <p><a href="../turmas.html">Turmas</a></p>
+            </li>
+        </ul>
+    </nav>
+
+    <form action=".../turmas.html"><br>
+        <h2>Formulário de Turmas</h2>
+
+    </form>
+
+    <form action="" method="get">
+        <div>
+            <label>Curso:</label>
+            <select id="curso" name="curso" class="campo">
+                <option></option>
+                <option value="1">Windows</option>
+                <option value="2">Excel</option>
+                <option value="3">Power BI</option>
+
+            </select>
+        </div>
+
+        <div>
+            <div>
+                <label for="dataInicio">Data de Início</label>
+                <input type="date" id="dataInicio" name="dataInicio" />
+            </div>
+            <div>
+                <label for="dataTermino">Data de Término</label>
+                <input type="date" id="dataTermino" name="dataTermino">
+            </div>
+        </div>
+        <div>
+            <input type="submit" value="Ok" />
+            <input type="reset" value="Limpar" />
+        </div>
+    </form>
+</body>
+</html>
